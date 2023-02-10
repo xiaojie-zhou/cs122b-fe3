@@ -19,16 +19,16 @@ const NavBar = () => {
     return (
 
             <header><a href="/">
-                <h4 className="logo">Fablix</h4>
+                <h4 className="logo">WeightMate</h4>
             </a>
                 <nav>
                     <ul>
                         <li><a href="/">HOME</a></li>
                         <li><a href="/login">LOGIN</a></li>
                         <li><a href="/register">REGISTER</a></li>
-                        <li><a href="/search">SEARCH</a></li>
-                        <li><a href="/cart">CART</a></li>
-                        <li><a href="/orders">ORDERS</a></li>
+                        {/*<li><a href="/search">SEARCH</a></li>*/}
+                        {/*<li><a href="/cart">CART</a></li>*/}
+                        {/*<li><a href="/orders">ORDERS</a></li>*/}
                     </ul>
                 </nav>
             </header>
